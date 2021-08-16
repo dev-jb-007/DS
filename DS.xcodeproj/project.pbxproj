@@ -12,6 +12,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		2F727B9C26C68FC500A12AF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2F727BA726C69BCD00A12AF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2F727BB226C6A3C200A12AF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2F727BBD26C6B89600A12AF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		2FC5C62F26C53BE200608C79 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +69,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F727B9E26C68FC500A12AF6 /* Ravi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ravi; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F727BA926C69BCD00A12AF6 /* Ravi @ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ravi @"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F727BB426C6A3C200A12AF6 /* Swap node */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swap node"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F727BBF26C6B89600A12AF6 /* Matrix Multiply */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Matrix Multiply"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC5C63126C53BE200608C79 /* DS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC5C63426C53BE200608C79 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2FC5C63B26C53C0400608C79 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
@@ -41,6 +81,34 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2F727B9B26C68FC500A12AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F727BA626C69BCD00A12AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F727BB126C6A3C200A12AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F727BBC26C6B89600A12AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2FC5C62E26C53BE200608C79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,6 +141,10 @@
 			children = (
 				2FC5C63126C53BE200608C79 /* DS */,
 				2FC5C64026C53C2100608C79 /* BST */,
+				2F727B9E26C68FC500A12AF6 /* Ravi */,
+				2F727BA926C69BCD00A12AF6 /* Ravi @ */,
+				2F727BB426C6A3C200A12AF6 /* Swap node */,
+				2F727BBF26C6B89600A12AF6 /* Matrix Multiply */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +168,74 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2F727B9D26C68FC500A12AF6 /* Ravi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F727BA426C68FC500A12AF6 /* Build configuration list for PBXNativeTarget "Ravi" */;
+			buildPhases = (
+				2F727B9A26C68FC500A12AF6 /* Sources */,
+				2F727B9B26C68FC500A12AF6 /* Frameworks */,
+				2F727B9C26C68FC500A12AF6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ravi;
+			productName = Ravi;
+			productReference = 2F727B9E26C68FC500A12AF6 /* Ravi */;
+			productType = "com.apple.product-type.tool";
+		};
+		2F727BA826C69BCD00A12AF6 /* Ravi @ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F727BAD26C69BCD00A12AF6 /* Build configuration list for PBXNativeTarget "Ravi @" */;
+			buildPhases = (
+				2F727BA526C69BCD00A12AF6 /* Sources */,
+				2F727BA626C69BCD00A12AF6 /* Frameworks */,
+				2F727BA726C69BCD00A12AF6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ravi @";
+			productName = "Ravi @";
+			productReference = 2F727BA926C69BCD00A12AF6 /* Ravi @ */;
+			productType = "com.apple.product-type.tool";
+		};
+		2F727BB326C6A3C200A12AF6 /* Swap node */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F727BB826C6A3C200A12AF6 /* Build configuration list for PBXNativeTarget "Swap node" */;
+			buildPhases = (
+				2F727BB026C6A3C200A12AF6 /* Sources */,
+				2F727BB126C6A3C200A12AF6 /* Frameworks */,
+				2F727BB226C6A3C200A12AF6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swap node";
+			productName = "Swap node";
+			productReference = 2F727BB426C6A3C200A12AF6 /* Swap node */;
+			productType = "com.apple.product-type.tool";
+		};
+		2F727BBE26C6B89600A12AF6 /* Matrix Multiply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F727BC326C6B89600A12AF6 /* Build configuration list for PBXNativeTarget "Matrix Multiply" */;
+			buildPhases = (
+				2F727BBB26C6B89600A12AF6 /* Sources */,
+				2F727BBC26C6B89600A12AF6 /* Frameworks */,
+				2F727BBD26C6B89600A12AF6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Matrix Multiply";
+			productName = "Matrix Multiply";
+			productReference = 2F727BBF26C6B89600A12AF6 /* Matrix Multiply */;
+			productType = "com.apple.product-type.tool";
+		};
 		2FC5C63026C53BE200608C79 /* DS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FC5C63826C53BE200608C79 /* Build configuration list for PBXNativeTarget "DS" */;
@@ -139,6 +279,18 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					2F727B9D26C68FC500A12AF6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					2F727BA826C69BCD00A12AF6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					2F727BB326C6A3C200A12AF6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					2F727BBE26C6B89600A12AF6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					2FC5C63026C53BE200608C79 = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -162,11 +314,43 @@
 			targets = (
 				2FC5C63026C53BE200608C79 /* DS */,
 				2FC5C63F26C53C2100608C79 /* BST */,
+				2F727B9D26C68FC500A12AF6 /* Ravi */,
+				2F727BA826C69BCD00A12AF6 /* Ravi @ */,
+				2F727BB326C6A3C200A12AF6 /* Swap node */,
+				2F727BBE26C6B89600A12AF6 /* Matrix Multiply */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2F727B9A26C68FC500A12AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F727BA526C69BCD00A12AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F727BB026C6A3C200A12AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F727BBB26C6B89600A12AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2FC5C62D26C53BE200608C79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -186,6 +370,70 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		2F727BA226C68FC500A12AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F727BA326C68FC500A12AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F727BAE26C69BCD00A12AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F727BAF26C69BCD00A12AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F727BB926C6A3C200A12AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F727BBA26C6A3C200A12AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F727BC426C6B89600A12AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F727BC526C6B89600A12AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		2FC5C63626C53BE200608C79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -332,6 +580,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2F727BA426C68FC500A12AF6 /* Build configuration list for PBXNativeTarget "Ravi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F727BA226C68FC500A12AF6 /* Debug */,
+				2F727BA326C68FC500A12AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F727BAD26C69BCD00A12AF6 /* Build configuration list for PBXNativeTarget "Ravi @" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F727BAE26C69BCD00A12AF6 /* Debug */,
+				2F727BAF26C69BCD00A12AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F727BB826C6A3C200A12AF6 /* Build configuration list for PBXNativeTarget "Swap node" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F727BB926C6A3C200A12AF6 /* Debug */,
+				2F727BBA26C6A3C200A12AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F727BC326C6B89600A12AF6 /* Build configuration list for PBXNativeTarget "Matrix Multiply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F727BC426C6B89600A12AF6 /* Debug */,
+				2F727BC526C6B89600A12AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2FC5C62C26C53BE200608C79 /* Build configuration list for PBXProject "DS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

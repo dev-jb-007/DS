@@ -6,13 +6,50 @@
 	<dict>
 		<key>BST.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>DS.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2F727B9D26C68FC500A12AF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F727BA826C69BCD00A12AF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F727BB326C6A3C200A12AF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F727BBE26C6B89600A12AF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FC5C63026C53BE200608C79</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FC5C63F26C53C2100608C79</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
